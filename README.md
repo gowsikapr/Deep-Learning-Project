@@ -6,6 +6,7 @@
 
 ## 🚀 Project Overview
 This project focuses on detecting crop diseases from leaf images using deep learning techniques. The model is designed to help farmers identify plant diseases early and reduce crop loss, contributing to smarter agriculture.
+💡 This model can assist farmers in early disease detection, reducing crop loss and improving yield.
 
 ---
 
