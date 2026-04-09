@@ -1,5 +1,9 @@
 # 🌱 Crop Disease Detection using Deep Learning
 
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 ## 🚀 Project Overview
 This project focuses on detecting crop diseases from leaf images using deep learning techniques. The model is designed to help farmers identify plant diseases early and reduce crop loss, contributing to smarter agriculture.
 
