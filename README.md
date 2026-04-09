@@ -1,24 +1,100 @@
-# Crop Disease Detection using Deep Learning
+# 🌱 Crop Disease Detection using Deep Learning
 
-## Overview
-This mini project implements a Convolutional Neural Network (CNN) for classification. 
-The model includes data preprocessing, data augmentation, and evaluation using a confusion matrix.
-Grad-CAM is used as the novelty to explain model predictions.
+## 🚀 Project Overview
+This project focuses on detecting crop diseases from leaf images using deep learning techniques. The model is designed to help farmers identify plant diseases early and reduce crop loss, contributing to smarter agriculture.
 
-## Key Components
-- CNN model for classification
-- Data preprocessing and augmentation
-- Confusion matrix for evaluation
-- Grad-CAM for explainable AI
+---
 
-## Tools Used
+## 🎯 Objective
+To build an accurate and reliable image classification model that can identify diseases in crops using Convolutional Neural Networks (CNNs) and Transfer Learning.
+
+---
+
+## 📊 Dataset
+- Total Images: 11,000+
+- Classes:
+  - Cashew
+  - Cassava
+  - Maize
+  - Tomato
+
+The dataset consists of real-world agricultural images of plant leaves categorized into different disease classes.
+
+---
+
+## 🧠 Model Architecture
+- Base Model: VGG16 (Transfer Learning)
+- Layers Used:
+  - Convolutional Layers (Pre-trained)
+  - Global Average Pooling
+  - Dense Layer (512 units, ReLU)
+  - Dropout (0.5)
+  - Output Layer (Softmax)
+
+---
+
+## ⚙️ Techniques Used
+- Data Preprocessing & Normalization
+- Data Augmentation (Flip, Rotation, Zoom, Contrast)
+- Class Weight Balancing
+- Transfer Learning (VGG16)
+- Model Checkpointing & Early Stopping
+- Mixed Precision Training
+
+---
+
+## 📈 Performance
+- Training Accuracy: ~98%
+- Validation Accuracy: ~97.9%
+- Test Accuracy: ~97.9%
+
+The model shows strong generalization across unseen data.
+
+---
+
+## 📊 Evaluation Metrics
+- Confusion Matrix
+- Precision, Recall, F1-Score
+- Classification Report
+
+---
+
+## 🔍 Explainable AI
+Grad-CAM (Gradient-weighted Class Activation Mapping) is used to visualize which parts of the image the model focuses on while making predictions, improving transparency and trust.
+
+---
+
+## 🛠️ Tech Stack
 - Python
-- Google Colab
 - TensorFlow / Keras
+- OpenCV
+- Google Colab
 
-## How to Run
-Open `Finalminiproject.ipynb` in Google Colab and run all cells.
+---
 
-## Author
-Gowsika P  
-3rd Year – Computer Science Engineering
+## 📸 Sample Outputs
+![image alt](https://github.com/gowsikapr/Deep-Learning-Project/blob/b130adbd5a9cd64136e258ba5554432c6465a751/Screenshot%202026-04-09%20161237.png)
+
+---
+
+## 🔗 Project Link
+[View Notebook](https://github.com/gowsikapr/Deep-Learning-Project/blob/main/Finalminiproject.ipynb)
+
+---
+
+## 🌾 Real-World Impact
+This solution can help farmers detect plant diseases early, reduce crop damage, and improve agricultural productivity using AI-driven insights.
+
+---
+
+## 📌 Future Improvements
+- Add more crop classes
+- Deploy as a web/mobile application
+- Integrate real-time disease detection
+- Improve accuracy with larger datasets
+
+---
+
+## 🤝 Connect
+I am actively seeking opportunities in AI / Machine Learning / Data Science.  
+Feel free to connect and collaborate!
